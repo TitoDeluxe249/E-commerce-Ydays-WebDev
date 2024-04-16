@@ -1,0 +1,17 @@
+@keyframes scroll {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.top-bar-container {
+    overflow: hidden;
+}
+
+.top .bar-content {
+    display: flex;
+    animation: scroll 10s linear infinite;
+}

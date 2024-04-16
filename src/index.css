@@ -1,0 +1,21 @@
+@import "https://fonts.googleapis.com/css?family=Sora";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Sora, monospace;
+}
+
+::selection {
+  background-color: #374151;
+  color: #fff;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
