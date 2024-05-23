@@ -2,7 +2,7 @@
 Prérequis : installation de Xampp
 
 
-Pour pouvoir lancer le projet, metter le projet dans votre dossier Xampp et puis taper la commande suivante dans votre terminale : npm run dev
+Pour pouvoir lancer le projet, metter le projet dans le sous-dossier de Xampp (Le chemin est normalement comme ça : C:\Xampp\htdocs\xampp) et puis taper la commande suivante dans votre terminale : npm run dev
 
 
 Mon projet est un site web E-commerce en utilisant des composants React pour différentes sections telles que l'en-tête, la section héros, les produits en vedette et le pied de page. Voici une description de chaque composant :
